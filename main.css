@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 20%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+nav{
+    width: 50em;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li{
+    box-sizing: border-box;
+    padding: 20px 38px;
+    background-color: #2265a9;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #15416e;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    display: flex;
+}
+
+#logo{
+    font-weight: bold;
+    font-size: 25px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#moto{
+    padding-top: 24px;
+    margin-left: 1em;
+}
+
+#mail{
+    margin-top: 0;
+}
+
+#tel{
+    margin-bottom: 0;
+}
+
+.contact{
+    margin-left: 13em;
+    margin-top: 1em;
+}
+
+.first_section{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50em;
+    height: 20em;
+}
+
+.about{
+    width: 260px;
+    height: 170px;
+    background-color: #2265a9;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+
+.about h3{
+    border-bottom: 2px dotted white;
+    padding: 12px 10px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.about p{
+    font-size: 12px;
+}
+
+.first_section h1{
+    background-color: #2265a9;
+    color: white;
+    font-size: 35px;
+    max-width: fit-content;
+    position: relative;
+    left: 410px;
+    top: 60px;
+    padding: 5px 7px;
+}
+
+.description_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-bottom: 1.5em;
+    width: 50em;
+    border-bottom: 2px dashed black;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8e8e8;
+    width: 250px;
+    height: 300px;
+}
+
+.description h2{
+    font-size: 15px;
+    border-bottom: 2px dotted black;
+    padding: 8px 15px;
+    margin-bottom: 0;
+}
+
+#dimension_card{
+    border: 5px double white;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding: 20px 40px;
+    background-color: #3a3b3f;
+    color: white;
+}
+
+#text{
+    font-size: 12px;
+    margin: 10px 20px;
+}
+
+.description a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #14316c;
+    margin-left: 65%;
+}
+
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50em;
+}
+
+.second_section_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 40px 6px;
+    border: 5px double white;
+    background-color: #3a3b3f;
+    color: white;
+    font-size: 18px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 35px;
+    font-size: 12px;
+}
+
+.container h2{
+    font-size: 15px;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+    border-bottom: 2px dotted black;
+}
+
+.container p{
+    margin-top: 5px;
+}
+
+.container a{
+    text-decoration: none;
+    margin-left: 62%;
+    color: #14316c;
+}
+
+.categories{
+    width: 41%;
+    background-color: #f6f6f6;
+    padding-right: 124px;
+    padding-bottom: 35px;
+    margin-top: 10px;
+}
+
+.categories h2{
+    font-size: 15px;
+    color: #9d9d9d;
+    border-bottom: 2px dashed #9d9d9d;
+    padding-right: 30px;
+}
+
+.categories a{
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid #9d9d9d;
+    color: #14316c;
+}
+
+.column_section{
+    display: flex;
+    justify-content: space-between;
+    width: 50em;
+    margin-top: 10px;
+}
+
+.column_section p{
+    border: 5px double white;
+    background-color: #3a3b3f;
+    color: white;
+    padding: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 50em;
+    background-color: #2265a9;
+    color: white;
+}
+
+footer p{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
